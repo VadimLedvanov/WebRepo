@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color:dodgerblue;
 }
 .registration {
     text-align: center;
@@ -11,7 +11,7 @@ body{
 .registration-wrap{
     display: flex;
     justify-content: center;
-    border-style: dashed;
+    
     
 }
 
