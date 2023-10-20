@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+.registration {
+    text-align: center;
+    background-color:rgb(146, 231, 17);
+    border-radius: 7%;
+    padding: 0px 30px;
+}
+
+.registration-wrap{
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    
+}
+
+
+
+.registration p {
+    text-transform: uppercase;
+    font-family: 'Pixelify Sans';
+}
+
+.registration p:hover {
+    color:rgb(255, 0, 0);
+    -webkit-text-shadow: 5px 5px 50px #000;
+    -moz-text-shadow: 5px 5px 5px #000;
+    text-shadow: 5px 5px 5px #000;
+}
+
+h3{
+    font-family: 'Pixelify Sans';
+    text-align: center;
+    color:greenyellow;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+input[type='submit']{
+    font-family: 'Pixelify Sans';
+}
+
+/*  CSS код для линии над заголовком */
+h3:before {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #f32900; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 0 auto 10px; /* Отступ с боков по центру и снизу */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h3:hover:before {
+    width: 200px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
+/*  CSS код для линии под заголовком */
+h3:after {
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: #ff2e04; /* Цвет линии */
+    width: 150px; /* Ширина линии до наведения */
+    margin: 10px auto 0; /* Отступ с боков по центру и сверху */
+	transition: 1s; /* Время, за которое линия возвращается после наведения */
+}
+h3:hover:after {
+    width: 200px; /* Ширина линии при наведении */
+	transition: ease-out 1s; /* Время, за которое линия расширяется при наведении */
+}
